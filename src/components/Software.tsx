@@ -12,8 +12,9 @@ export const Software = () => {
           </p>
         </div>
 
-        <div className="grid lg:grid-cols-2 gap-12 items-start">
-          <div className="space-y-8">
+        <div className="space-y-12">
+          {/* Architecture and Flask Server Row */}
+          <div className="grid lg:grid-cols-2 gap-8">
             <div className="bg-slate-800/50 backdrop-blur-sm p-8 rounded-xl border border-orange-500/20 hover:border-orange-500/40 transition-all duration-300">
               <h3 className="text-2xl font-bold text-orange-400 mb-6">Arhitectura Duală</h3>
               <div className="space-y-4">
@@ -51,7 +52,8 @@ export const Software = () => {
             </div>
           </div>
 
-          <div className="space-y-8">
+          {/* Code Images Row */}
+          <div className="grid lg:grid-cols-2 gap-8">
             <div className="bg-slate-800/50 backdrop-blur-sm p-6 rounded-xl border border-orange-500/20 hover:border-orange-500/40 transition-all duration-300">
               <h3 className="text-xl font-bold text-orange-400 mb-4">Codul Python - Flask Server</h3>
               <div className="bg-gray-900 rounded-lg overflow-hidden">
@@ -73,22 +75,23 @@ export const Software = () => {
                 />
               </div>
             </div>
+          </div>
 
-            <div className="bg-slate-800/50 backdrop-blur-sm p-8 rounded-xl border border-green-500/20 hover:border-green-500/40 transition-all duration-300">
-              <h3 className="text-2xl font-bold text-green-400 mb-6">Comunicare & Interfață</h3>
-              <div className="space-y-4 text-gray-300">
-                <div className="flex items-center space-x-3">
-                  <div className="w-3 h-3 bg-green-500 rounded-full"></div>
-                  <span>Comunicare Pi-Arduino prin USB (asincron, bidirecțional)</span>
-                </div>
-                <div className="flex items-center space-x-3">
-                  <div className="w-3 h-3 bg-blue-500 rounded-full"></div>
-                  <span>Interfață responsivă (desktop & mobile)</span>
-                </div>
-                <div className="flex items-center space-x-3">
-                  <div className="w-3 h-3 bg-orange-500 rounded-full"></div>
-                  <span>Structură modulară Python (Pi) & C++ (Arduino)</span>
-                </div>
+          {/* Communication Section - Full Width */}
+          <div className="bg-slate-800/50 backdrop-blur-sm p-8 rounded-xl border border-green-500/20 hover:border-green-500/40 transition-all duration-300">
+            <h3 className="text-2xl font-bold text-green-400 mb-6 text-center">Comunicare & Interfață</h3>
+            <div className="grid md:grid-cols-3 gap-6 text-gray-300">
+              <div className="flex items-center space-x-3">
+                <div className="w-3 h-3 bg-green-500 rounded-full flex-shrink-0"></div>
+                <span>Comunicare Pi-Arduino prin USB (asincron, bidirecțional)</span>
+              </div>
+              <div className="flex items-center space-x-3">
+                <div className="w-3 h-3 bg-blue-500 rounded-full flex-shrink-0"></div>
+                <span>Interfață responsivă (desktop & mobile)</span>
+              </div>
+              <div className="flex items-center space-x-3">
+                <div className="w-3 h-3 bg-orange-500 rounded-full flex-shrink-0"></div>
+                <span>Structură modulară Python (Pi) & C++ (Arduino)</span>
               </div>
             </div>
           </div>
