@@ -63,6 +63,17 @@ export const Software = () => {
               </div>
             </div>
 
+            <div className="bg-slate-800/50 backdrop-blur-sm p-6 rounded-xl border border-purple-500/20 hover:border-purple-500/40 transition-all duration-300">
+              <h3 className="text-xl font-bold text-purple-400 mb-4">Codul Python - VideoCamera Class</h3>
+              <div className="bg-gray-900 rounded-lg overflow-hidden">
+                <img 
+                  src="/lovable-uploads/f81493e6-e6e5-437d-ba0a-78bda76da9e9.png" 
+                  alt="Python VideoCamera Class Code" 
+                  className="w-full h-auto"
+                />
+              </div>
+            </div>
+
             <div className="bg-slate-800/50 backdrop-blur-sm p-8 rounded-xl border border-green-500/20 hover:border-green-500/40 transition-all duration-300">
               <h3 className="text-2xl font-bold text-green-400 mb-6">Comunicare & Interfață</h3>
               <div className="space-y-4 text-gray-300">
